@@ -1,6 +1,6 @@
-import React from 'react';
-import Lesson from './Lesson';
-import ContactForm from './ContactForm';
+import React from "react";
+import Lesson from "./Lesson";
+import ContactForm from "./ContactForm";
 
 class Main extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Main extends React.Component {
       {
         name: 'Sass',
         image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/sass.svg',
-        introduction: 'Sass adalah sebuah bahasa untuk membuat code CSS lebih gampang dan efisien.',
+        introduction: 'Sass adalah sebuah bahasa untuk membuat code CSS lebih gampang dan efisient.',
       },
       {
         name: 'JavaScript',
@@ -32,7 +32,7 @@ class Main extends React.Component {
         <div className='main'>
           <div className='copy-container'>
             <h1>Hello, World.</h1>
-            <h2>Selamat datang didunia pemrograman!</h2>
+            <h2>Selamat datang di dunia pemrograman!</h2>
           </div>
           <div className='lesson-container'>
             <h3>Pelajaran</h3>
